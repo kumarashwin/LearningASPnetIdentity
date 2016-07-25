@@ -1,4 +1,6 @@
-﻿using Microsoft.Owin;
+﻿using LearningASPnetIdentity;
+using LearningASPnetIdentity.Models;
+using Microsoft.Owin;
 using Owin;
 using System;
 using System.Collections.Generic;
@@ -12,7 +14,9 @@ namespace LearningASPnetIdentity
     {
         public void Configuration(IAppBuilder app)
         {
-
+            app.CreatePerOwinContext(ApplicationDbContext.Create);
+            app.CreatePerOwinContext<ApplicationUserManager>(ApplicationUserManager.Create);
+            app.CreatePerOwinContext<ApplicationSignInManager>(ApplicationSignInManager.Create);
         }
     }
 }

@@ -68,3 +68,6 @@ C:\Users\Ash\Desktop\udemy\ASPnetIdentity\LearningASPnetIdentity\bin\System.Web.
 C:\Users\Ash\Desktop\udemy\ASPnetIdentity\LearningASPnetIdentity\obj\Debug\LearningASPnetIdentity.csprojResolveAssemblyReference.cache
 C:\Users\Ash\Desktop\udemy\ASPnetIdentity\LearningASPnetIdentity\obj\Debug\LearningASPnetIdentity.dll
 C:\Users\Ash\Desktop\udemy\ASPnetIdentity\LearningASPnetIdentity\obj\Debug\LearningASPnetIdentity.pdb
+C:\Users\Ash\Desktop\udemy\ASPnetIdentity\LearningASPnetIdentity\obj\Debug\LearningASPnetIdentity.Migrations.InitialCreate.resources
+C:\Users\Ash\Desktop\udemy\ASPnetIdentity\LearningASPnetIdentity\obj\Debug\LearningASPnetIdentity.csproj.GenerateResource.Cache
+C:\Users\Ash\Desktop\udemy\ASPnetIdentity\LearningASPnetIdentity\obj\Debug\LearningASPnetIdentity.Migrations.InitialCustomUser.resources
