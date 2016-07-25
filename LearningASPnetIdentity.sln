@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearningASPnetIdentity", "L
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearningOAuth", "LearningOAuth\LearningOAuth.csproj", "{DEE99F65-5E47-4F94-98F5-6030A51EB792}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearningEmailAuth", "LearningEmailAuth\LearningEmailAuth.csproj", "{01926E81-20E7-4FFD-8C3D-DCAF849CF240}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,9 +19,12 @@ Global
 		{D551A747-6FA6-4C1E-9282-1959E296CF48}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D551A747-6FA6-4C1E-9282-1959E296CF48}.Release|Any CPU.Build.0 = Release|Any CPU
 		{DEE99F65-5E47-4F94-98F5-6030A51EB792}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DEE99F65-5E47-4F94-98F5-6030A51EB792}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DEE99F65-5E47-4F94-98F5-6030A51EB792}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DEE99F65-5E47-4F94-98F5-6030A51EB792}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01926E81-20E7-4FFD-8C3D-DCAF849CF240}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01926E81-20E7-4FFD-8C3D-DCAF849CF240}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01926E81-20E7-4FFD-8C3D-DCAF849CF240}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01926E81-20E7-4FFD-8C3D-DCAF849CF240}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
