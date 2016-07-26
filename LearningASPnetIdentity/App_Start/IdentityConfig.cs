@@ -43,6 +43,22 @@ namespace LearningASPnetIdentity
         {
             return new ApplicationSignInManager(context.Get<ApplicationUserManager>(), context.Authentication);
         }
+
+    }
+
+    public class ApplicationRoleManager : RoleManager<IdentityRole>
+    {
+        public ApplicationRoleManager(RoleStore<IdentityRole> roleStore) : base(roleStore)
+        {
+
+        }
+
+        public static ApplicationRoleManager Create(IOwinContext context)
+        {
+            var roleStore = new RoleStore<IdentityRole>(context.Get<ApplicationDbContext>());
+
+            return new ApplicationRoleManager(roleStore);
+        }
     }
 
     public class IdentityConfig
